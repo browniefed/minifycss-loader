@@ -1,0 +1,21 @@
+{
+  "name": "minifycss-loader",
+  "version": "0.1.0",
+  "description": "A CSS Minifier loader for webpack if you don't use the css-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": "Jason Brown <browniefed@gmail.com> (http://browniefed.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "csso": "^1.3.11",
+    "loader-utils": "^0.2.5"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.4.0"
+  }
+}
